@@ -4,7 +4,7 @@ import workTypes from './workTypes';
 const workData: workTypes[] = [{
     place: "TenizenCode",
     role: "Fullstack Developer",
-    years: "Sep 2023 - Aug 2023",
+    years: "Jan 2024 - Now",
     description: [
         "Develop a progressive web app (PWA) for the school canteen system using Laravel & jQuery",
         "Develop Company Profile using NextJS & TailwindCSS"
