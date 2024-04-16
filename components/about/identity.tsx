@@ -11,7 +11,7 @@ const Identity = () => {
             <div className="box-left">
                 <div className="name-roles">
                     <div className="name">
-                        <h1 className="text-2xl font-bold">Ikhsan Adriansyah</h1>
+                        <h1 className="text-[22px] lg:text-2xl font-bold">Ikhsan Adriansyah</h1>
                     </div>
                     <div className="role">
                         <p className="roles">Fullstack Developer</p>
