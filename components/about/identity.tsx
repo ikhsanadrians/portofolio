@@ -19,23 +19,23 @@ const Identity = () => {
                 </div>
                 <div className="locations flex items-center gap-1 text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-globe size-3"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-                    <p className="text-[13px] text-xs">
+                    <p className="text-[13px] text-xs text-slate-600">
                         East Jakarta , Indonesia
                     </p>
                 </div>
                 <div className="links flex gap-1 mt-2">
-                    <div className="mail border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
+                    <a href='mailto:aikhsan032@gmail.com' target="_blank" className="mail border-slate-400/60 lg:border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
                         <CiMail className="group-hover:fill-slate-900 fill-slate-600" />
-                    </div>
-                    <div className="phone border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
+                    </a>
+                    <a href='tel:+621584256856' target="_blank" className="phone border-slate-400/60 lg:border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
                         <MdPhone className="group-hover:fill-slate-900 fill-slate-600" />
-                    </div>
-                    <div className="github border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
+                    </a>
+                    <a href='https://github.com/ikhsanadrians' target="_blank" className="github border-slate-400/60 lg:border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
                         <FaGithub className="group-hover:fill-slate-900 fill-slate-600" />
-                    </div>
-                    <div className="github border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
+                    </a>
+                    <a href='https://www.linkedin.com/in/ikhsanadriansyah' target="_blank" rel="noopener noreferrer" className="linkedin border-slate-400/60 lg:border-input group hover:bg-slate-200 duration-200 border-[.9px] p-[5px] rounded-lg">
                         <FaLinkedin className="group-hover:fill-slate-900 fill-slate-600" />
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="box-right">
