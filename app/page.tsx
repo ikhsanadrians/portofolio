@@ -8,6 +8,8 @@ import Identity from "@/components/about/identity";
 export default function Home() {
   return (
     <main className="container mx-auto lg:px-96 lg:pt-16 py-8">
+      <div className="absolute top-0 left-0 h-80 w-64 bg-gradient-to-r from-slate-900 to-slate-700/20 rounded-full blur-[120px] -z-10">
+      </div>
       <div className="identity-box flex justify-between">
         <Identity />
       </div>
@@ -45,6 +47,8 @@ export default function Home() {
           </div>
         </div>
       </Link>
+      <div className="absolute -bottom-[26rem] right-0 h-80 w-64 bg-gradient-to-r from-slate-900 to-slate-700/20 rounded-full blur-[120px] -z-10">
+      </div>
     </main>
   );
 }

@@ -44,16 +44,37 @@ const ProjectsData: CardProps[] = [
     },
     {
         title: "The Borobudur",
-        description: "a website showcasing the Borobudur Temple",
+        description: "A website showcasing the Borobudur Temple",
         techStack: [
             "React", "TailwindCSS", "GSAP"
         ]
     },
     {
         title: "IOT Control Website",
-        description: "website serves as an IoT platform designed to control various electronics",
+        description: "A website serves as an IoT platform designed to control various electronics",
         techStack: [
             "Laravel", "jQuery", "TailwindCSS"
+        ]
+    },
+    {
+        title: "E-Library",
+        description: "Library System Website",
+        techStack: [
+            "PHP", "jQuery", "Bootstrap"
+        ]
+    },
+    {
+        title: "Simple Chat Web App",
+        description: "Simple Chat Web Application",
+        techStack: [
+            "HTML", "CSS", "Javascript", "Websockets"
+        ]
+    },
+    {
+        title: "Connexfest",
+        description: "Event Ticketing App Design",
+        techStack: [
+            "Flutter",
         ]
     }
 ]
@@ -70,7 +91,7 @@ const Card = () => {
                         {project.description}
                     </div>
                 </div>
-                <div className="project-techstack flex flex-wrap lg:flex-row flex-col sm:flex-col gap-2 text-xs mt-8">
+                <div className="project-techstack flex flex-wrap gap-2 text-xs mt-8">
                     {project.techStack.map((tech, index) => (
                         <div key={index} className="stack text-xs font-medium bg-slate-100 w-fit px-2 py-1 rounded-md">
                             {tech}

@@ -13,7 +13,7 @@ const workData: workTypes[] = [{
 {
     place: "PT Laisindo Anugerah Jaya Abadi",
     role: "Frontend Developer",
-    years: "Sep 2023 - Aug 2023",
+    years: "Aug 2023 - Sep 2023",
     description: [
         "Develop Company Profile Website For Laisindo using Laravel & jQuery",
         "Develop Product Catalogue System using Laravel & jQuery"
