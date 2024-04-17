@@ -39,7 +39,7 @@ const Identity = () => {
                 </div>
             </div>
             <div className="box-right">
-                <div className="picture-img h-28 w-28 rounded-xl overflow-hidden">
+                <div className="picture-img h-28 w-28 rounded-xl overflow-hidden shadow-2xl">
                     <Image src={pictureProfile} alt="profile-pics" className="w-full h-full object-cover brightness-90" />
                 </div>
             </div>
