@@ -11,7 +11,7 @@ const skill = () => {
         'Javascript',
         'jQuery',
         'TailwindCSS',
-        'mySQL',
+        'MySQL',
         'React Native',
         'SASS',
         'GIT',
@@ -19,7 +19,11 @@ const skill = () => {
         'PHP',
         'HTML',
         'CSS',
-        'Express'
+        'Express',
+        'Bootstrap',
+        'PostgreSQL',
+        'Python',
+        'C'
     ];
 
     return (
