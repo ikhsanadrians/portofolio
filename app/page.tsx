@@ -8,7 +8,7 @@ import Identity from "@/components/about/identity";
 export default function Home() {
   return (
     <main className="overflow-y-hidden relative">
-      <div className="absolute -top-[50rem] left-0 h-full w-64 bg-gradient-to-r from-slate-900 to-slate-700/15 rounded-full -z-10  blur-[130px] opacity-90">
+      <div className="absolute -top-[50rem] left-0 h-full w-64 bg-gradient-to-r from-slate-900 to-slate-700/15 rounded-full -z-10  blur-[130px] opacity-50 lg:opacity-70">
       </div>
       <div className="container lg:px-96 lg:pt-16 py-8 h-full  mx-auto">
         <div className="identity-box flex justify-between z-10">
@@ -50,7 +50,7 @@ export default function Home() {
         </Link>
       </div>
       <svg style={{ WebkitMaskImage: '-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,100)), to(rgba(0,0,0,0))' }} className="absolute opacity-5 inset-0 h-full w-full -z-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="pricing-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)"><path d="M0 32V.5H32" fill="none" stroke="currentColor"></path></pattern></defs><rect width="100%" height="100%" fill="url(#pricing-pattern)"></rect></svg>
-      <div className="absolute -bottom-[50rem] blur-[130px] opacity-90 right-0 h-full w-64 bg-gradient-to-r from-slate-900 to-slate-700/20 rounded-full -z-10">
+      <div className="absolute -bottom-[50rem] blur-[150px] opacity-50 right-0 h-full w-64 bg-gradient-to-r from-slate-900 to-slate-700/20 rounded-full -z-10">
       </div>
 
     </main>
