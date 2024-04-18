@@ -82,7 +82,7 @@ const ProjectsData: CardProps[] = [
 const Card = () => {
     return (
         ProjectsData.map((project, index) => (
-            <div className="card border-[.9px] bg-gradient-to-r from-slate-100/30 to-white border-slate-200 p-3 rounded-md flex flex-col justify-between">
+            <div className="card border-[.9px] shadow-sm bg-gradient-to-r from-slate-100/30 to-white border-slate-200 p-3 rounded-md flex flex-col justify-between">
                 <div className="project-details w-full">
                     <div className="title-project text-sm font-semibold">
                         {project.title}
