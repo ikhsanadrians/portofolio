@@ -15,7 +15,7 @@ const workData: workTypes[] = [
     {
         place: "TenizenCode",
         role: "Fullstack Developer",
-        years: "Jan 2024 - Now",
+        years: "Jan 2024 - Jun 2024",
         description: [
             "Develop a progressive web app (PWA) for the school canteen system using Laravel & jQuery",
             "Develop Company Profile using NextJS & TailwindCSS"
