@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import pictureProfile from "@/public/pictures/bw2.png"
+import pictureProfile from "@/public/pictures/bw1.jpg"
 import { CiMail } from "react-icons/ci";
 import { MdPhone } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";

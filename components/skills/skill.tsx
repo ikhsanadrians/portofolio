@@ -23,6 +23,8 @@ const skill = () => {
         'Bootstrap',
         'PostgreSQL',
         'Python',
+        'Vue',
+        'Inertia'
     ];
 
     return (

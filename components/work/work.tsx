@@ -1,33 +1,44 @@
 import React from 'react';
 import workTypes from './workTypes';
 
-const workData: workTypes[] = [{
-    place: "TenizenCode",
-    role: "Fullstack Developer",
-    years: "Jan 2024 - Now",
-    description: [
-        "Develop a progressive web app (PWA) for the school canteen system using Laravel & jQuery",
-        "Develop Company Profile using NextJS & TailwindCSS"
-    ]
-},
-{
-    place: "PT Laisindo Anugerah Jaya Abadi",
-    role: "Frontend Developer",
-    years: "Aug 2023 - Sep 2023",
-    description: [
-        "Develop Company Profile Website For Laisindo using Laravel & jQuery",
-        "Develop Product Catalogue System using Laravel & jQuery"
-    ]
-},
-{
-    place: "PT Solusi Intek Indonesia",
-    role: "Fullstack Developer - Intern",
-    years: "Oct 2022 - Mar 2023",
-    description: [
-        "Develop an Internal website using Laravel & jQuery",
-        "Develop an IoT Control Application using React Native and MQTT"
-    ]
-}
+const workData: workTypes[] = [
+    {
+        place: "Jasamedika Saranatama",
+        role: "System Implementator",
+        years: "Jun 2024 - Now",
+        description: [
+            "Analyze System business requirements and align them with system capabilities.",
+            "Configure and test systems to ensure functionality",
+            "Offer post-implementation support and troubleshooting."
+        ]
+    },
+    {
+        place: "TenizenCode",
+        role: "Fullstack Developer",
+        years: "Jan 2024 - Now",
+        description: [
+            "Develop a progressive web app (PWA) for the school canteen system using Laravel & jQuery",
+            "Develop Company Profile using NextJS & TailwindCSS"
+        ]
+    },
+    {
+        place: "PT Laisindo Anugerah Jaya Abadi",
+        role: "Frontend Developer",
+        years: "Aug 2023 - Sep 2023",
+        description: [
+            "Develop Company Profile Website For Laisindo using Laravel & jQuery",
+            "Develop Product Catalogue System using Laravel & jQuery"
+        ]
+    },
+    {
+        place: "PT Solusi Intek Indonesia",
+        role: "Fullstack Developer - Intern",
+        years: "Oct 2022 - Mar 2023",
+        description: [
+            "Develop an Internal website using Laravel & jQuery",
+            "Develop an IoT Control Application using React Native and MQTT"
+        ]
+    }
 ];
 
 const work = () => {
