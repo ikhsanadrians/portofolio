@@ -4,12 +4,13 @@ import workTypes from './workTypes';
 const workData: workTypes[] = [
     {
         place: "Jasamedika Saranatama",
-        role: "System Implementator",
+        role: "System Implementator & Analyst Programmer",
         years: "Jun 2024 - Now",
         description: [
             "Analyze System business requirements and align them with system capabilities.",
             "Configure and test systems to ensure functionality",
-            "Offer post-implementation support and troubleshooting."
+            "Offer post-implementation support and troubleshooting.",
+            "Develop, customize, and optimize software solutions based on requirements."
         ]
     },
     {
