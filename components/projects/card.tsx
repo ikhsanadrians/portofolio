@@ -15,6 +15,20 @@ const ProjectsData: CardProps[] = [
         ]
     },
     {
+        title: "Pengajuan Barang",
+        description: "Pengajuan Barang For PT Intertama Trikenca Bersinar",
+        techStack: [
+            "Laravel Jetstream", "Inertia", "Vue", "PrimeVue"
+        ]
+    },
+    {
+        title: "Wrsnet.id",
+        description: "Company Profile And Customer Relationship Manager",
+        techStack: [
+            "Vue", "Laravel", "Tailwind", "Leaflet"
+        ]
+    },
+    {
         title: "Connexsoft Web",
         description: "12 RPL SMKN 10 Jakarta Class website",
         techStack: [
